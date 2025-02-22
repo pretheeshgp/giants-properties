@@ -32,6 +32,8 @@
 	--property-box-5: url("../img/property 5.png");
 	--property-box-6: url("../img/property 6.png");
 
+	--listing-box-a: url("../img/listing 1.jpg");
+
 	--body-font:   "Poppins", serif !important;
 	--title-font:  "DM Serif Display", serif !important;
 	--number-font: "Stardos Stencil", serif !important;
@@ -42,6 +44,7 @@
 	--px48: 2.286rem;
 	--px56: 2.667rem;
 	--px70: 3.3rem;
+	--px18: 0.857rem;
 
 	--px64: 3.048rem;
 	--px16: 0.762rem;
@@ -57,6 +60,8 @@
 	--px108: 5.143rem;
 	--px100: 4.762rem;
 	--px456: 21.714rem;
+	--px560: 26.667rem;
+	--px400: 19.048rem;
 
 
 
@@ -167,6 +172,7 @@ h4 {
 	font-weight: 900;
   	font-family: "Poppins", serif !important;
   	text-align: center;
+  	width: max-content;
 
 }
 
@@ -190,6 +196,26 @@ h6 {
 
 }
 
+h7 {
+
+	font-size: var(--px18);
+	font-weight: 600;
+	color: var(--white100);
+	font-family: var(--body-font);
+}
+
+
+h8 {
+
+	font-size: var(--px18);
+	font-weight: 300;
+	color: var(--white100);
+	font-family: var(--body-font);
+
+}
+
+
+
 p {
 
 	font-size: 1rem;
@@ -199,6 +225,16 @@ p {
   	font-family: "Poppins", serif !important;
 
 }
+
+.p_large {
+
+		font-size: var(--px32);
+		font-weight: 400;
+		text-transform: uppercase;
+		color: var(--primary) !important;
+		font-family: var(--body-font);
+}
+
 
 header {
 
@@ -667,3 +703,103 @@ header {
 					background-image: var(--property-box-6);
 
 }
+
+
+section.property-listings {
+
+				
+				padding: var(--px64) var(--px64);
+				display: flex;
+				width: 100%;
+				flex-direction: column;
+				justify-content: space-between;
+				row-gap: var(--px64);
+				align-items: center;
+				background-color: var(--bg1);
+
+
+
+}
+
+
+.commercial-property {
+
+
+						display: flex;
+						flex-direction: column;
+						row-gap: var(--px16);
+						align-items: flex-start;
+						justify-content: center;
+						height: auto;
+						width: 100%;
+
+}
+
+
+.residential-property {
+
+
+						display: flex;
+						flex-direction: column;
+						row-gap: var(--px16);
+						align-items: flex-end;
+						justify-content: center;
+						height: auto;
+						width: 100%;
+
+}
+
+.box-row-560 {
+
+
+					width: 100%;
+					height: var(--px560);
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-top: 16px;
+}
+
+#box-row-560 {
+
+
+				width: var(--px400);
+				height: 100%;
+
+				display: flex;
+				align-items: flex-end;
+				justify-content: center;
+
+				row-gap: var(--px16);
+
+				background-color: var(--secondary);
+				background-position: center;
+				background-size: cover;
+				border-radius: var(--px16);
+}
+
+.box400a {
+
+
+				background-image: var(--listing-box-a);
+
+
+}
+
+.light-blue-box {
+
+
+				width: 100%;
+				padding: var(--px16);
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: flex-start;
+				row-gap: var(--px16);
+				background-color: rgba(69, 87, 168, 0.4);
+				border-bottom-right-radius: var(--px16);
+				border-bottom-left-radius: var(--px16);
+
+}
+
+
