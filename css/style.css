@@ -2961,6 +2961,23 @@ section.footer {
 
     		}
 
+
+    		li, button {
+
+			    font-size: 12.5px !important;
+			    font-weight: 700;
+		}
+
+			.text-align-left {
+			    text-align: center !important;
+			}
+
+
+			.button-row button {
+
+				padding: 12px 10px !important;
+			}
+
 }
 
 
