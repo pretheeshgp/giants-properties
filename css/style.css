@@ -2499,6 +2499,16 @@ section.footer {
 		}	
 
 
+		.button-row {
+    
+    			width: 100% !important;
+    			justify-content: space-between !important;
+    			
+
+
+    	}
+
+
 
 }
 
