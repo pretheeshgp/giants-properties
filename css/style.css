@@ -2503,7 +2503,8 @@ section.footer {
     
     			width: 100% !important;
     			justify-content: space-between !important;
-    			
+    			column-gap: none !important;
+
 
 
     	}
