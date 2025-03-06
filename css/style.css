@@ -157,6 +157,49 @@ body {
 
 }
 
+#menupop {
+
+
+		display: none;
+
+		width: 100%;
+		height: 100vh;
+
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+}
+
+#popup {
+
+
+		text-decoration: none;
+		font-size: var(--h4);
+		font-family: var(--title-font);
+		color: var(--primary);
+}
+
+#popup:hover {
+
+			text-decoration: underline;
+			text-decoration-color: var(--secondary);
+}
+
+.close-btn-space {
+
+		width: 100%;
+		display: grid;
+		justify-content: flex-end;
+		padding: 16px;
+}
+
+#closer {
+
+
+		cursor: pointer;
+}
+
+
 
 .font-100{
 
@@ -1329,6 +1372,7 @@ section.property-listings {
 				background-color: rgba(69, 87, 168, 0.4);
 				border-bottom-right-radius: var(--px16);
 				border-bottom-left-radius: var(--px16);
+				color: var(--bg1);
 
 }
 
