@@ -653,10 +653,10 @@ header[class="header-inner"] {
 		width: 100%;
 		height: auto;
 		padding: var(--px64) 0px;
+		row-gap: var(--px64);
 
 		display: flex;
 		flex-direction: column;
-		row-gap: var(--px64);
 		justify-content: space-between;
 		align-items: center;
 
@@ -2026,7 +2026,7 @@ section.footer {
 
 #property-page {
 
-		background: linear-gradient(rgb(245,246,251,0.64), rgb(245,246,251,0.64)) , url("../img/sales 2.jpg") center;
+		background: linear-gradient(rgba(202, 235, 255, 0.64), rgba(202, 235, 255, 0.64)) , url("../img/property-hero.jpg") center;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 
@@ -2129,7 +2129,7 @@ section.footer {
 
 #services-page {
 
-		background: linear-gradient(rgb(245,246,251,0.64), rgb(245,246,251,0.64)) , url("../img/our-services.jpeg") center;
+		background: linear-gradient(rgba(202, 235, 255, 0.64), rgba(202, 235, 255, 0.64)) , url("../img/services-hero.jpg") center;
 
 		background-repeat: no-repeat;
 		background-size: 100% 100%;	
@@ -2222,6 +2222,21 @@ section.footer {
 
 }
 
+
+
+	.why-us-page {
+
+
+		background-color: var(--bg2) !important;
+
+	}
+
+
+	.why-us-page-box {
+
+
+			background-color: var(--bg1) !important;
+	}
 
 
 /* media  query for laptops+ */
@@ -2352,6 +2367,27 @@ section.footer {
 
 				display: none;
 		}
+
+
+		.hero-inner {
+
+
+		width: 100%;
+		height: auto;
+		padding: 32px 0px !important;
+		row-gap: 32px !important;
+
+
+		}
+
+		.hero-inner-p {
+
+
+				padding: 0px 16px !important;
+		}
+
+
+
 
 		.box-row-435, .box-row-412 {
 
@@ -3395,7 +3431,7 @@ section.footer {
 
 							    width: 100%;
 							    font-weight: 400;
-							    padding: 32px;
+							    padding: 0px 32px;
 							}	
 
 
